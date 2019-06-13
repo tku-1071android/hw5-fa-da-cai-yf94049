@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="52dp"
+        android:onClick="onLifeCycle"
+        android:text="@string/LifeCycle" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="52dp"
+        android:onClick="onScrollView"
+        android:text="@string/ScrollView" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="160dp"
+        android:onClick="onWebView"
+        android:text="@string/WebView" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="158dp"
+        android:onClick="onRatingBar"
+        android:text="@string/RatingBar" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="274dp"
+        android:onClick="onSeekBar"
+        android:text="@string/SeekBar" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="273dp"
+        android:onClick="onCompoundButton"
+        android:text="@string/ConpoundButton" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="393dp"
+        android:onClick="onMenus"
+        android:text="@string/Menus" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="389dp"
+        android:onClick="onSpinner"
+        android:text="@string/Spinner" />
+
+</RelativeLayout>
